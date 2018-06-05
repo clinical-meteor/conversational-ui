@@ -1,10 +1,10 @@
 Meteor.methods({
-    createNewNote: function(text){
+    createNewConversation: function(text){
         check(text, String);        
-        console.log('createNewNote()', text);
+        console.log('createNewConversation()', text);
 
-        Notes.insert({
-            resourceType: 'Note',
+        Conversations.insert({
+            resourceType: 'Conversation',
             note: text
         });
     }

@@ -1,5 +1,5 @@
 Package.describe({
-    name: 'clinical:conversational-ui',
+    name: 'clinical:rules-engine',
     version: '0.0.2',
     summary: 'Conversational UI - questionnaires, decision trees, voice recognition, etc.',
     git: 'https://github.com/clinical-meteor/example-plugin',
@@ -31,6 +31,12 @@ Package.onUse(function(api) {
     api.addFiles('server/methods.js', 'server');
     api.addFiles('server/rest.js', 'server');
 
-    api.addFiles('assets/asclepius.png', "client", {isAsset: true});    
     api.mainModule('index.jsx', 'client');
 });
+
+// Npm.depends({
+//     "react-conversational-ui":"2.3.0",
+//     "nools": "0.4.4"
+//   });
+  
+  

@@ -22,3 +22,6 @@ meteor npm install
 meteor --settings packages/conversational-ui/configs/settings.example.json
 ```
 
+
+#### Inspired By  
+https://github.com/fredjens/react-conversational-ui
