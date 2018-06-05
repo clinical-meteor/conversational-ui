@@ -26,7 +26,7 @@ Package.onUse(function(api) {
     api.use('aldeed:collection2@2.5.0');
     api.use('simple:json-routes@2.1.0');
 
-    api.addFiles('lib/collection.js');
+    api.addFiles('lib/Conversation.js');
 
     api.addFiles('server/methods.js', 'server');
     api.addFiles('server/rest.js', 'server');
