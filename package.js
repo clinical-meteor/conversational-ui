@@ -1,6 +1,6 @@
 Package.describe({
     name: 'clinical:rules-engine',
-    version: '0.0.2',
+    version: '0.0.3',
     summary: 'Conversational UI - questionnaires, decision trees, voice recognition, etc.',
     git: 'https://github.com/clinical-meteor/example-plugin',
     documentation: 'README.md'
